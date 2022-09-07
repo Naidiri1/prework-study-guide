@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  * {
     margin: 1;
     padding: 5;
@@ -10,24 +11,56 @@ footer {
     height: 190px;
     background-color: rgb(63, 63, 73);
     color: rgb(239, 238, 238);
+=======
+* {
+   margin:0;
+
+padding: 0;
+
+}
+
+header, 
+footer {
+
+    width:100%;
+    height: 120px;
+    background-color: blue;
+    color:white;
+
+>>>>>>> 64e5a62671699893ae644a44851fb2ff6dcae222
 }
 
 h1,
 h2 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 64e5a62671699893ae644a44851fb2ff6dcae222
     text-align: center;
 }
 
 img {
+<<<<<<< HEAD
     display: block;
     height: 70px;
     width: 70px;
     margin-left: auto;
     margin-right: auto;
+=======
+     
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+>>>>>>> 64e5a62671699893ae644a44851fb2ff6dcae222
 }
 
 ul {
     padding-left: 40px;
     font-size: 20px;
+<<<<<<< HEAD
 }
 
 p {
@@ -41,3 +74,13 @@ p {
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
   }
+=======
+
+}
+
+p { 
+    text-align: center;
+    font-size: 30px;
+
+}
+>>>>>>> 64e5a62671699893ae644a44851fb2ff6dcae222
