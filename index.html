@@ -19,40 +19,140 @@
 
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>
+        <h2> Hypertext Markup Language (HTML) </h2>
         <ul>
-          <li>Thea head element contains information about the webpage</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>The &#60 head &#62 element contains information about the webpage like the tittle. </li>
+          <li>The &#60 body &#62 represents the visible content shown to the user.</li>
+          <li>HTML builds the structure of a webpage.</li>
+          <li> It has basic elemments like; text, image, header, and list elements. </li>
+          <li> Common elements to describe a page: meta-related, content division, and semantic elements. </li>
+          <li> HTML elements are usually composed by an opening and closing tag with angle brackets  &#60 &#62 .</li>
+          <li> Metadata or &#60 head &#62 element contains information about accesibility, search engines and performance, it is not for user. </li>
+          <li> The &#60 body &#62 element contains the content that is shown to the user. </li>
+          <li>&#60 &excl; Doctype html  &#62 declaration tells the browser to expect HTML on the page. </li>
+          <li> Inside &#60 HTML &#62  is an attribute of lang= "en", which tells the browser the language for the webpage. </li>
         </ul>
+        <br>
+        <table>
+       <tr>
+         <td> The &#60 head &#62 element contains information about the page. </td>
+         <td> The &#60 tittle &#62 element defines the title for a webpage. </td>
+         <td> The &#60 style  &#62 element defines the CSS style. </td>
+      </tr>
+      <tr>
+      <td> The &#60 base &#62 element defines the base URL for a webpage. </td>
+      <td> The &#60 link &#62 element  connects an external resource to the HTML document.</td>
+        <td> The &#60 meta &#62 element defines description, keywords, author, and viewport. </td>
+      </tr>
+      <tr>
+        <td> The &#60 ssript &#62 element embedss client-side scripts in the HTML document. </td>
+      </tr>
+      </table>
+      <ul>
+        <li> The &#60 body &#62 element  contains child elements that are the elements nested in the body element also known as the parent element.</li>
+        <li>All the content that we want to display to the user must be inside the &#60 body &#62 element. </li> 
+      </ul>
+        <br>
+      <table >
+        <tr>
+      <td> The &#60 h1 &#62, &#60 h2 &#62, &#60 h3 &#62, &#60 h4 &#62, &#60 h5 &#62, and &#60 h6 &#62 elements represent the level of heading a given text block represents</td>
+      <td> The &#60 p &#62 element represent a paragraph or block of text. </td>
+        </tr>
+        <tr> 
+      <td> The &#60 ul &#62, &#60 ol &#62 and &#60 li &#62 elements represent unorder, order and list items. </td>
+      <td> The &#60 img &#62 element contains informations about images.</td>
+        </tr>
+        <tr>
+      <td> The &#60 br &#62 element creates a line of empty space or a break line. </td>
+      <td> The &#60 a &#62 element creates links to the same webpage or others. </td>
+        </tr>
+        <tr> 
+      <td> The &#60 footer &#62 element appears at the bottom of the page.  </td>
+        </tr>
+      </table>
         </section>
-
       <section class="card" id="css-section">
-        <h2>CSS</h2>
+        <h2>Cascading Style Sheets (CSS) </h2>
         <ul>
+          <li> There are three different ways to style a web page. </li>
+        </ul>
+        <table>
+          <tr class="center">
+            <th> CSS: in line</th>
+            <th> CSS: internal style sheet</th>
+            <th> CSS: external style sheet </th>
+          </tr>
+          <tr>
+            <td> Style an element direcly in the HTML using CSS sttributes.</td>
+            <td> Using CSS rules in the head of the webpage. </td>
+            <td> CSS rules are in a separate file. </td>
+          </tr>
+        </table>
+      <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li> A selector defines elements or attributes which rules or declarations will apply. </li>
+          <li> declarations contain two components, the property and the value of the property.
+          <li> We combine sectors into a single CSS rule with a comma allowing the declarations to affect those sectors.</li>
+          <li> Class attributes allow us to share a CSS rule to any element we choose by assigning rules. </li>
         </ul>
+        <table>
+          <tr class="center">
+            <th colspan="5"> .card class attribute</th>
+          </tr>
+          <td> Width element from 0% to 100%.</td>
+          <td> Margin property assigns 0-100px.</td>
+          <td> Auto value to the left and right.</td> 
+          <td> Border property assigns a border 0-100 px. </th>   
+          <td> Box-shadow, CSS property adds shadow effects around an element frame.</td>      
+          </tr>
+        </table>
+          
+        
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on </li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it </li>
+          <li>Git  is a version control system that let us manage and keep track of each version of a project.</li>
+          <li>When there is a bug we use git revert  to revert and fix a problem with this command. </li>
+          <li>Git commands always start with git to initiate or create a repo, add code and view different versions of that code.  </li>
+          <li> To have a project save we use the cloud like Github to save our projet and changes so everything is sync with the workflow </li>
+          <li> There is a main branch where is the result of the project and there are feature branches where we add changes to get s final project.</li>
+          <li> Pull request is used to merge a comparison branch into the base branch (main). </li>
+          <li> We use commands like cd to access our home directory cd name of the prject and code to open it in the VS code.</li>
+          <li>Git status: checks what branch we are currently on. </li>
+          <li>Git checkout -b branch-name: creates a new branch and switches to it. </li>
+          <li>Git add -A command adds modifications and all the changes in the current working branch. </li>
+          <li>Git commit -m commit messages describe what the commit contains.</li>
+          <li>Git pull origin main command to have the latest version of the project.</li>
         </ul>
       </section>
       
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>A variable is named container that allows us to store data in our code</li>
-          <li>Control flow is the order in which a computer executes code in a script</li>
-        </ul>
+          <li>A JavaScript variable is to store data in our code, it hs be unique because it is how we reference the information store in our variable code. </li>
+          <li>A variable contains a string that includes all the information we are linking to it.</li>
+          <li>Console method is to output a message to the web console by adding an argument in (), by console.log(value).</li>
+          <li>We link an external CSS stle sheet by adding &#60 link &#62 element inside the &#60 body  &#62 element.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>We use Chrome DevTools to open our webpage int the browser and see the console tab to see our variable with console.log  method. </li>
+          <li>There are way to create conditional statements in JS like IF to introduce decision-making in our code.</li>
+          <li> We have else If when the condition is not true, then the computer will ignore whatever is in between the curly brackets and move on.</li>
+           <li>We use this strict equality operator (===) to check if two values are equal or not.</li>
+           <li>Array is to store a group of reated data.</li>
+           <li> for loop is to perform a task using just a few lines of code using the predicable pattern to be executed over and over again.</li>
+           <li> In JavaScript arrays sre zero-indexed ansequential.</li>
+           <li>Function is a set of instructins that tells the computer how to perform a task.</li>
+           <li>Functions should be named first in order to be exeuted. </li>
+      </ul>
+
       </section>
 
 
     <footer>
-      <p>I can code!</p>
+      <p>I can code! &#9787 </p>
     </footer>
     <script src="./assets/script.js"></script>
   </body>
